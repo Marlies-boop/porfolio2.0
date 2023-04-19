@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Sedgwick+Ave+Display&display=swap");
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  margin-bottom: 20vh;
+  background-image: url("/Images/pexels-luis-gomes-546819.jpg");
+  background-color: rgba(46, 42, 42, 0.74);
+  background-blend-mode: darken;
+  font-family: "Delicious Handrawn";
+}
+
+header {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 5em;
+}
+
+nav {
+  display: flex;
+  padding: 0 5em;
+}
+
+.nav h3 {
+  gap: 20em;
+}
+
+.logo {
+  width: 25%;
+}
+.navbar {
+  width: 75%;
+}
+
+nav a {
+  padding: 16px;
+  color: blueviolet;
+  text-decoration: none;
+}
+
+h3 {
+  color: blueviolet;
+  font-family: "Sedgwick Ave Display", cursive;
+}
+
+.ProjectPage {
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 5vh;
+}
+
+.Img {
+  height: 20vh;
+  display: flex;
+  justify-content: right;
+  margin-right: 10vh;
+}
+
+span {
+  color: white;
+}
+
+.bg-image {
+  height: 60vh;
+}
+
+.hero {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.4em;
+}
+
+.hero span {
+  color: powderblue;
+}
+
+.hero p {
+  margin-left: 16em;
+  margin-right: 16em;
+}
+
+.recent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+}
+.card-row {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card {
+  width: 29rem;
+  background-color: lightskyblue;
+  border-radius: 15px;
+  padding-bottom: 30px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  height: 200px;
+}
+
+.card p {
+  padding: 0 15px;
+}
+
+.card a {
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+footer {
+  position: fixed;
+  height: 75px;
+  color: white;
+  background-color: black;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  padding: 10px;
+}
+
+.AboutMe {
+  text-align: center;
+  padding-left: 20em;
+  padding-right: 20em;
+  padding-top: 5em;
+  color: white;
+}
+
+.Contact {
+  text-align: center;
+  padding-left: 20em;
+  padding-right: 20em;
+  padding-top: 5em;
+  color: white;
+}
+
+.Contact label {
+  text-align: left;
+}
+
+.Paragraph {
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding-left: 5vh;
+}
